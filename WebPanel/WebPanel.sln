@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApp", "WebApp\WebApp.csproj", "{33A57855-5DBA-4284-B070-CF1B17357697}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{9C9BC902-A482-4088-812B-AEE93921D063}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{356EE4B6-14DC-47B2-85AC-B53B3549DCD0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{33A57855-5DBA-4284-B070-CF1B17357697}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33A57855-5DBA-4284-B070-CF1B17357697}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33A57855-5DBA-4284-B070-CF1B17357697}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33A57855-5DBA-4284-B070-CF1B17357697}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C9BC902-A482-4088-812B-AEE93921D063}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C9BC902-A482-4088-812B-AEE93921D063}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C9BC902-A482-4088-812B-AEE93921D063}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C9BC902-A482-4088-812B-AEE93921D063}.Release|Any CPU.Build.0 = Release|Any CPU
+		{356EE4B6-14DC-47B2-85AC-B53B3549DCD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{356EE4B6-14DC-47B2-85AC-B53B3549DCD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{356EE4B6-14DC-47B2-85AC-B53B3549DCD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{356EE4B6-14DC-47B2-85AC-B53B3549DCD0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0330150E-7151-4240-B764-B6BBAF436F39}
+	EndGlobalSection
+EndGlobal
