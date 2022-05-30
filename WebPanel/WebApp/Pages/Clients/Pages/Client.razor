@@ -1,0 +1,17 @@
+﻿@page "/clients/{Id:int}"
+
+@using WebApp.Pages.Clients.Models
+
+<h3>Client</h3>
+
+
+
+@code {
+    public ClientPageModel PageModel { get; set; }
+
+    protected override async Task OnInitializedAsync()
+    {
+        await base.OnInitializedAsync();
+        PageModel = new ClientPageModel();
+    }
+}

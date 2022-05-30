@@ -1,3 +1,6 @@
+using Core.Interfaces.Clients;
+using Core.Services.Clients;
+using Infrastructure.Repositories.Clients;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Web;
 
@@ -6,6 +9,9 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
+
+builder.Services.AddTransient<IClientService, ClientService>();
+builder.Services.AddTransient<IClientRepository, ClientRepository>();
 
 var app = builder.Build();
 
